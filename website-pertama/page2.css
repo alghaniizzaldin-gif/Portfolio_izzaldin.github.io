@@ -1,0 +1,307 @@
+
+.gambar{
+    width: 200px;
+}
+
+.nama{
+    color: blue;
+}
+
+.deskripsi{
+    color: aqua;
+}
+
+body{
+    background-color: gray;
+}
+
+.card{
+    background-color: white;
+    width: 500px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px 10px ;
+    border-radius: 20px;
+    border: 2px solid blue;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.566);
+    transition: 0.4s;
+    
+}
+
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.menu{
+    gap: 30px;
+    display: flex;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.button a{
+    background-color: aquamarine;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.aboutme{
+    display: flex;
+    gap: 80px;
+    background: linear-gradient(135deg, red, blue);
+    align-items: center;
+    padding: 10px 20px;
+}
+.about-text{
+    flex: 1;
+    
+}
+
+.about-text h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.about-text p{
+    line-height: 1.8;
+    color: white;
+    font-size: 20px;
+}
+
+.about-image img{
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    border-radius: 25px;
+}
+
+.about-image img:hover{
+    transform: translateY(-10px);
+}
+
+.about-image h2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+/* =================================
+
+        SKILLS
+
+================================= */
+
+
+.Skills{
+    background-color: blue;
+    color: white;
+    padding: 100px  90px;
+
+}
+
+.skills-title{
+    text-align: center;
+
+}
+
+.skills-title p{
+    color: blue;
+    background-color: white;
+    padding: 8px 16px;
+    border: 2px solid red;
+    width: 150px;
+    margin: auto;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.skills-title h2{
+    font-size: 45px;
+}
+
+.skills-title h2 span{
+    color: red;
+}
+
+.skills-title .Skills-subtitle{
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    width: 300px;
+}
+
+.skill-card{
+    background-color: white;
+    padding: 30px;
+    border: 2px solid red;
+    border-radius: 18px;
+    color: black;
+    width: 200px;
+    gap: 10px ;
+}
+.skill-card .skil-icon{
+    background-color: blue;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.skill-card h3{
+    font-size: 23;
+}
+
+.skill-bar{
+    height: 10px;
+    background-color: lightgrey;
+    width: 100%;
+}
+
+.skill-progres.html{
+    background-color: orangered;
+    width: 90% ;
+    height: 10px;
+}
+
+.skill-progres.Figma{
+    background-color: blue;
+    width: 90% ;
+    height: 10px;
+}
+
+.skill-progres.IoT{
+    background-color: yellow;
+    width: 90% ;
+    height: 10px;
+}
+
+
+.skills-container{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.contact{
+    background-color: white;
+    padding-top: 20px;
+}
+
+#contact{
+    width: 100%;
+    min-height: 650px;
+    padding: 80px 8%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+     background: linear-gradient(135deg, red,blue);
+}
+.Contact-form{
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 0 15px 40px black ;
+}
+
+.Contact-form form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Contact-form label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:  8px;
+}
+
+.Contact-form input,
+.Contact-form select,
+.Contact-form textarea{
+    width: 100%;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+
+.Contact-form input::placeholder,
+.Contact-form textarea::placeholder{
+    color: white;
+}
+
+.Contact-form input:focus,
+.Contact-form select:focus,
+.Contact-form textarea:focus{
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+
+.Contact-form button{
+    width: 100%;
+    padding: 14px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.Contact-form button:hover{
+    background-color: rgb(252, 104, 104);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px red;
+}

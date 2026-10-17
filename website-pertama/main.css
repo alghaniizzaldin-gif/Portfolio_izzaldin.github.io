@@ -1,0 +1,82 @@
+    h1{
+        color: red;
+        background-color: aqua;
+        width: 200px;
+        transition: 0.5s;
+
+     }
+     h2{
+        color: yellow;
+        background: red;
+        width: 200px;   
+        transition: 0.5s;
+
+     }
+     p{
+        color: blue;
+        background-color: green;
+        width: 200px;
+        transition: 0.5s;
+
+     }
+     img{
+        width: 200px;
+        border-radius: 20px;
+        transition: 0.5s;
+     }
+     a{
+        color: white;
+        background-color: blue;
+        padding: 10px;
+        border-radius: 10px;
+        display: inline;
+     }
+
+     body{
+        background-color: gray;
+        
+     }
+
+     h1:hover{
+        background-color: red;
+        color: aqua;
+     }
+
+     h2:hover{
+        background-color: yellow;
+        color: red;
+     }
+
+     p:hover{
+        color: green;
+        background-color: blue;
+     }
+
+     img:hover{
+        width: 300px;
+        
+     }
+
+     a:hover{
+        color: blue;
+        background-color: whitesmoke;
+     }
+
+     .email{
+        background-color: white;
+        color: black;
+     }
+
+     .nomor_telpon{
+        color: black;
+        background-color: white;
+     }
+
+     .text{
+        color: black;
+        background-color: white;
+     }
+     .kontak{
+        color: black;
+        background-color: white;
+     }

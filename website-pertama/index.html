@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagas | Portofolio</title>
+    <meta name="description" content="Portofolio Bagas, siswa SMP IDN Boarding School dari Bogor.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="#home" class="logo"><img src="images/logo-idn.png" alt="Logo IDN Boarding School"></a>
+        <div class="menu">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Skill</a>
+            <a href="#contact">Kontak</a>
+        </div>
+        <a class="btn btn-small" href="https://wa.me/6289639154877?text=Halo%20saya%20dari%20website" target="_blank" rel="noopener">Chat WhatsApp</a>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-text">
+            <p class="hello">Halo, aku</p>
+            <h1>Bagas<br>Nasuiton</h1>
+            <p class="lead">Siswa SMP IDN Boarding School dari Bogor yang lagi belajar bikin website.</p>
+            <a class="btn" href="#about">Kenalan dulu</a>
+            <div class="board" aria-live="polite">
+                <div><b id="made">0</b><span>Masuk</span></div>
+                <div><b id="missed">0</b><span>Meleset</span></div>
+            </div>
+        </div>
+
+        <div class="scene" id="scene">
+            <svg class="hoop" viewBox="0 0 360 420" aria-hidden="true">
+                <rect x="290" y="140" width="14" height="250" fill="#1c1b33"/>
+                <rect x="170" y="20" width="170" height="120" rx="10" fill="#fff" stroke="#1c1b33" stroke-width="6"/>
+                <rect x="225" y="70" width="60" height="45" fill="none" stroke="#f26a1b" stroke-width="5"/>
+                <g id="net" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round">
+                    <path d="M172 154L190 205M189 156L199 205M206 158L208 205M223 158L221 205M240 156L231 205M257 154L240 205M180 172H249M185 188H244"/>
+                </g>
+                <ellipse cx="215" cy="152" rx="46" ry="9" fill="none" stroke="#f26a1b" stroke-width="7"/>
+                <rect x="0" y="388" width="360" height="6" fill="#1c1b33" opacity=".25"/>
+            </svg>
+            <button class="ball" id="ball" aria-label="Tembak bola basket ke ring">
+                <span class="bounce">
+                    <svg viewBox="0 0 60 60"><circle cx="30" cy="30" r="28" fill="#f26a1b" stroke="#1c1b33" stroke-width="3"/><path d="M30 2V58M2 30H58M11 9Q30 30 11 51M49 9Q30 30 49 51" fill="none" stroke="#1c1b33" stroke-width="2.5"/></svg>
+                </span>
+            </button>
+            <p class="pop" id="pop"></p>
+            <p class="hint" id="hint">Klik bolanya buat nembak!</p>
+        </div>
+    </header>
+
+    <div class="marquee" aria-hidden="true">
+        <div class="track">
+            <span>BAGAS &#127936; SMP IDN BOARDING SCHOOL &#127936; BOGOR &#127936; LAGI BELAJAR NGODING &#127936;</span>
+            <span>BAGAS &#127936; SMP IDN BOARDING SCHOOL &#127936; BOGOR &#127936; LAGI BELAJAR NGODING &#127936;</span>
+        </div>
+    </div>
+
+    <section id="about" class="about">
+        <figure class="player">
+            <img src="images/spiderman.webp" alt="Foto Bagas">
+            <figcaption>
+                <strong>Bagas</strong>
+                <dl>
+                    <dt>Asal</dt><dd>Bogor</dd>
+                    <dt>Sekolah</dt><dd>IDN Boarding School</dd>
+                    <dt>Jenjang</dt><dd>SMP</dd>
+                </dl>
+            </figcaption>
+        </figure>
+        <div class="about-text">
+            <h2>Tentang aku</h2>
+            <p>Aku Bagas, siswa SMP IDN Boarding School dari Bogor. Aku lagi belajar bikin website, dan ini hasil percobaan pertamaku: portofolio bertema basket.</p>
+            <p>Bikin website itu mirip latihan tembakan. Coba, meleset, perbaiki, lalu coba lagi sampai masuk.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Statistik pemain</h2>
+        <div class="bars">
+            <div class="bar"><span>HTML</span><div class="track"><i class="fill" style="--w:70%"></i></div><b>70</b></div>
+            <div class="bar"><span>CSS</span><div class="track"><i class="fill" style="--w:60%"></i></div><b>60</b></div>
+            <div class="bar"><span>JavaScript</span><div class="track"><i class="fill" style="--w:30%"></i></div><b>30</b></div>
+            <div class="bar"><span>Desain</span><div class="track"><i class="fill" style="--w:55%"></i></div><b>55</b></div>
+        </div>
+        <div class="mascot">
+            <img src="images/kelinci.jpg" alt="Kelinci, maskot tim">
+            <p><strong>Maskot tim: si Kelinci.</strong> Kecil, lincah, dan jago loncat. Pas buat jadi maskot.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Ayo main bareng</h2>
+        <p>Mau ngobrol atau bikin sesuatu bareng? Hubungi aku lewat sini.</p>
+        <div class="actions">
+            <a class="btn btn-white" href="https://wa.me/6289639154877?text=Halo%20saya%20dari%20website" target="_blank" rel="noopener">Chat WhatsApp</a>
+            <a class="btn btn-white" href="mailto:bagas@gmail.com">Kirim email</a>
+            <a class="btn btn-white" href="https://www.youtube.com/" target="_blank" rel="noopener">Lihat sosmed</a>
+        </div>
+        <p class="info">bagas@gmail.com &nbsp;|&nbsp; 08218348123 &nbsp;|&nbsp; Bogor</p>
+    </section>
+
+    <footer>Dibuat di Bogor dengan HTML, CSS, dan JavaScript.</footer>
+    <script src="script.js"></script>
+</body>
+</html>
